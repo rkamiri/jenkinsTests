@@ -21,9 +21,10 @@ pipeline {
             
         }
     }*/
-    
+    stages {
         stage ('Initialize') {
             echo 'toto';
         }
+    }
     
 }
