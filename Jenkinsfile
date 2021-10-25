@@ -8,6 +8,7 @@ pipeline {
         stage ('Initialize') {
             steps {
                 echo 'toto';
+                sh 'mvn test'
             }
         }
     }
