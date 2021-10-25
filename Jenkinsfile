@@ -4,7 +4,7 @@ pipeline {
         maven 'maven'
         jdk 'jdk17'
     }
-    stages {
+   /* stages {
         stage ('Initialize') {
             steps {
                 sh '''
@@ -20,5 +20,10 @@ pipeline {
             }
             
         }
-    }
+    }*/
+    
+        stage ('Initialize') {
+            echo 'toto';
+        }
+    
 }
