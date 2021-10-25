@@ -6,7 +6,9 @@ pipeline {
     }
     stages {
         stage ('Initialize') {
-            echo 'toto';
+            steps {
+                echo 'toto';
+            }
         }
     }
     
